@@ -26,7 +26,6 @@ namespace ConsoleApplication2
             _keyboard.Update();
             if (!_enteredLine.Equals(""))
             {
-                //process Line then clear.
                 Console.Write("\r\nEntered line was: {0}", _enteredLine);
                 _enteredLine = "";
             }
